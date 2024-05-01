@@ -1,0 +1,24 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Nunito:var(--paragraph-medium-medium-font-weight),var(--label-large-semi-bold-font-weight),var(--label-small-medium-font-weight),var(--heading-h3-semibold-dektop-font-weight),var(--heading-h4-bold-desktop-font-weight),var(--label-xsmall-semibold-font-weight),var(--paragraph-large-semibold-font-weight),var(--label-small-semi-bold-font-weight),var(--paragraph-overline-large-font-weight),var(--label-small-special-strikethrough-font-weight),var(--heading-h3-extrabold-desktop-font-weight),var(--paragraph-small-medium-font-weight),var(--paragraph-large-medium-font-weight),var(--label-medium-medium-font-weight),var(--paragraph-medium-regular-font-weight),var(--display-bold-small-font-weight),var(--paragraph-xsmall-medium-font-weight),var(--display-semibold-small-font-weight),var(--label-small-regular-font-weight),var(--paragraph-small-semibold-font-weight),var(--paragraph-medium-semibold-font-weight),var(--label-large-regular-font-weight),var(--paragraph-xsmall-regular-font-weight),var(--paragraph-small-regular-font-weight),var(--paragraph-xsmall-semibold-font-weight),var(--paragraph-overline-small-font-weight),var(--paragraph-large-regular-font-weight)");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+@font-face {
+  font-family: "Arial-Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/653e91e15650ba167f907146/fonts/fontsfree-net-arial-bold.ttf")
+    format("truetype");
+}
